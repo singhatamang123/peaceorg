@@ -70,7 +70,7 @@ const carouselItems = [
   {
     image: rs,
     title: "Adventure Awaits",
-    text: "Embark on a journey to new horizons.",
+    text: "Embark on a journey to new horizons with us.",
   },
   {
     image: rk,
