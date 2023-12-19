@@ -1,0 +1,45 @@
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(to right, #4e73df, #224abe);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+  z-index: 1000; /* Ensure the button is above other content */
+}
+
+.scroll-to-top-btn.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-to-top-btn:hover {
+  background: linear-gradient(to right, #224abe, #4e73df);
+}
+
+.scroll-to-top-btn:focus {
+  outline: none;
+}
+
+/* Add a subtle shadow for a floating effect */
+.scroll-to-top-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add this to your CSS file */
+.custom-toggler .navbar-toggler-icon {
+  background-color: #87CEEB; /* Sky blue color */
+}
+
+
+
+
+

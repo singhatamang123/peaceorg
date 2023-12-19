@@ -1,0 +1,85 @@
+/* About.css */
+
+.about-container {
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    color: navy;
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-family: 'Courier, monospace';
+    font-weight: bold;
+  }
+  
+  .work-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .work-description {
+    font-size: 1.2em;
+    color: #555;
+    font-family: serif;
+    font-weight: bold;
+  }
+  
+  .gallery-card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .gallery-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .gallery-image {
+    cursor: pointer;
+  }
+  
+  .cause-card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cause-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cause-icon {
+    margin-bottom: 1rem;
+  }
+  
+  .cause-title {
+    font-weight: bold;
+  }
+  
+  .cause-description {
+    color: #555;
+  }
+  
+  /* Add more styles as needed */
+
+  /* styles.css */
+
+/* styles.css */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 4s ease-in-out infinite;
+}
+
+
+  
