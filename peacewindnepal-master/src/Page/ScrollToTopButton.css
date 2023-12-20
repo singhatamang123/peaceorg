@@ -36,10 +36,36 @@
 
 /* Add this to your CSS file */
 .custom-toggler .navbar-toggler-icon {
-  background-color: #87CEEB; /* Sky blue color */
+  background-color: #87ceeb; /* Sky blue color */
 }
 
+.nav-link:hover {
+  color: #ee1c4d;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
 
+.donate-link {
+  background-color: #f8d7da;
+  border-radius: 15px;
+  transition: all 0.3s;
+  font-size: 20px;
+  
+}
 
+.donate-link:hover {
+  transform: scale(1.1);
+  background-color: #f5c6cb;
+}
 
+/* Media query for screens less than 600px wide */
+@media (max-width: 600px) {
+  .donate-link {
+    /* Adjust the styles as needed for small screens */
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
 
+  }
+}

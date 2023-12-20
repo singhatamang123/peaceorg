@@ -9,7 +9,7 @@ import { useMediaQuery } from "react-responsive";
 
 const peopleData = [
   {
-    name: "Palden Tamang",
+    name: "Krishna Giri",
     position: "CEO",
     comment:
       "Make a career of humanity. Commit yourself to the noble struggle for equal rights. You will make a better person of yourself, a greater nation of your country, and a finer world to live in",
