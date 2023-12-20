@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://peacewindsnepal/contact/send-email", {
+      const response = await fetch("https://peace-412m.onrender.com/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
