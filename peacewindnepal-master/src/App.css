@@ -1,0 +1,52 @@
+/* Reset some default styles */
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Set up a basic font style */
+body {
+  font-family: "Arial, sans-serif";
+  font-size: 16px; /* Establish a base font size for better readability */
+  line-height: 1.6; /* Improve line spacing for better readability */
+}
+
+/* Apply a consistent color scheme */
+body {
+  background-color: #fff; /* Use hexadecimal or RGB values for colors */
+  color: #333; /* Adjust text color to improve readability */
+}
+
+/* Define your organization's primary color */
+.primary-color {
+  color: #ff0000; /* Red color for primary elements */
+}
+
+/* Style links */
+a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Add a smooth transition effect for color changes */
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Add more styles as needed for specific elements */
