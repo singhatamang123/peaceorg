@@ -13,7 +13,7 @@ const app = express();
 // Enable CORS
 // Replace 'your-netlify-url' with your actual Netlify URL
 const corsOptions = {
-  origin: 'https://peace-412m.onrender.com',
+  origin: 'https://peacewindsnepal.org',
   optionsSuccessStatus: 200,
 };
 
