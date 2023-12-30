@@ -1,0 +1,1 @@
+Peace Winds Nepal is an organization that focuses on empowering Nepal's children, youth, men, and women. Peace Winds Nepal shall remain an efficient, self-sustainable, and independent humanitarian organization committed to providing immediate relief to human suffering and reducing vulnerability.
